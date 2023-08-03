@@ -1,5 +1,4 @@
-# 0-Makefile
+# this rule compile the main program called holberton
 
-# Rule all: builds the holberton executable file
-all:
+all: main.c holberton.c
 	gcc main.c holberton.c -o holberton
